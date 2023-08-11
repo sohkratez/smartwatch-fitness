@@ -45,3 +45,19 @@ main {
 #container-conteudo h2 {
     text-align: center;
 }
+
+#recursos-principais {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.container-recursos {
+    margin: 0.3rem;
+    background-color:  rgba(211, 211, 211, 0.678);
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 30px;
+    text-align: center;
+}
