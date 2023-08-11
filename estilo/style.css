@@ -47,17 +47,19 @@ main {
 }
 
 #recursos-principais {
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1rem;
 
 }
 
 .container-recursos {
     margin: 0.3rem;
-    background-color:  rgba(211, 211, 211, 0.678);
+    background-color:  #27ae60;
     width: 30rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 30px;
     text-align: center;
 }
