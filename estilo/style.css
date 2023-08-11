@@ -34,11 +34,13 @@ main {
     text-align: center;
     padding-top: 1rem;
     width: 40vw;
-    background-color: rgba(211, 211, 211, 0.432);
-    margin-top: 3rem;
+/*     background-color: rgba(211, 211, 211, 0.432);
+ */    margin-top: 3rem;
 }
 
 #container-conteudo {
+    width: 70rem;
+    padding: 3rem;
     margin: 1rem 5rem 1rem 5rem;
 }
 
@@ -57,9 +59,19 @@ main {
 
 .container-recursos {
     margin: 0.3rem;
-    background-color:  #27ae60;
+    background-color:  #e74c3c;
     width: 30rem;
     padding: 1.5rem;
     border-radius: 30px;
     text-align: center;
 }
+
+#botao-compra a {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #27ae60;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
