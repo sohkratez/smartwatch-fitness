@@ -18,3 +18,7 @@ div#smartwatch {
     font-size: 1.4em;
     padding: 2rem;
 }
+
+div#whole {
+    display: grid;
+}
