@@ -13,6 +13,8 @@
     padding: 0;
 }
 
-div#whole {
-    display: grid;
+div#smartwatch {
+    font-family: var(--font01);
+    font-size: 1.4em;
+    padding: 2rem;
 }
