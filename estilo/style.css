@@ -8,9 +8,36 @@
     --cor01: #000000;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
+    font-family: var(--font01);
+}
+
+.header {
+    color: white;
+    background: #1d1e20;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 1rem;
+    font-family: 1.2rem;
+}
+
+.header > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.menu {
+    display: flex;
+    color: white;
+}
+
+.menu li {
+    margin: 1rem;
 }
 
 div#smartwatch {
