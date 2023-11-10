@@ -41,12 +41,6 @@
     list-style: none;
 }
 
-div#smartwatch {
-    font-family: var(--font01);
-    font-size: 1.4em;
-    padding: 2rem;
-}
-
-div#whole {
-    display: grid;
+#whole {
+    display: flex;
 }
