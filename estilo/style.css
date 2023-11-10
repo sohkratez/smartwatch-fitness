@@ -57,3 +57,7 @@ img {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+#about-n-buy {
+    font-family: var(--font01);
+}
