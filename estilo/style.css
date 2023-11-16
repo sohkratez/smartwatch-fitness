@@ -60,4 +60,17 @@ img {
 
 #about-n-buy {
     font-family: var(--font01);
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+}
+
+#about-n-buy  p {
+    padding: 1rem;
+}
+
+#info {
+    background: rgba(255, 255, 255, 0.726);
 }
