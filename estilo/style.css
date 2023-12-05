@@ -47,6 +47,7 @@ img {
 
 #whole {
     display: flex;
+    align-items: center;
 }
 
 #smartwatch {
@@ -92,4 +93,12 @@ img {
 #info-categoria-conect::before {
     content: url(../img/wi-fi.png);
     padding: 5px;
+}
+
+#compre {
+    
+}
+
+button {
+    padding: 30px;
 }
