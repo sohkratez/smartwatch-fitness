@@ -54,7 +54,7 @@ img {
   padding: 1.5rem;
   margin-top: 0.5rem;
   font-family: var(--font02);
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -62,7 +62,7 @@ img {
     font-family: var(--font01);
     padding: 3rem 5rem;
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 #about-n-buy  p {
@@ -70,6 +70,26 @@ img {
 }
 
 #info-categoria-freq::before {
+    content: url(../img/frequencia-cardiaca.png);
+    padding: 5px;
+}
+
+#info-categoria-treino::before {
     content: url(../img/corrida.png);
     padding-right: 5px;
+}
+
+#info-categoria-notif::before {
+    content: url(../img/sinos.png);
+    padding: 5px;
+}
+
+#info-categoria-sono::before {
+    content: url(../img/cara-dormindo.png);
+    padding: 5px;
+}
+
+#info-categoria-conect::before {
+    content: url(../img/wi-fi.png);
+    padding: 5px;
 }
