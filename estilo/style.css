@@ -62,8 +62,13 @@ img {
     font-family: var(--font01);
     padding: 3rem 5rem;
     text-align: justify;
+    font-size: 1.2em;
 }
 
 #about-n-buy  p {
     padding: 1rem;
+}
+
+#info-categoria-ativ::before {
+     
 }
