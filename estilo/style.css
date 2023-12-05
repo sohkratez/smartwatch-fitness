@@ -40,6 +40,11 @@ img {
     color: white;
 }
 
+.menu  a {
+    text-decoration: none;
+    color: white;
+}
+
 .menu li {
     margin: 1rem;
     list-style: none;
