@@ -69,6 +69,7 @@ img {
     padding: 1rem;
 }
 
-#info-categoria-ativ::before {
-     
+#info-categoria-freq::before {
+    content: url(../img/corrida.png);
+    padding-right: 5px;
 }
