@@ -96,9 +96,14 @@ img {
 }
 
 #compre {
-    /* tentar afastar o botão */
+    margin: 3rem 3rem;
 }
 
 button {
-    padding: 30px;
+    padding: 45px;
+    font-family: var(--font02);
+    font-size: 1em;
+    background-color: rgba(0, 128, 0, 0.616);
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px solid black;
 }
