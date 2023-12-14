@@ -36,6 +36,10 @@ img {
     font-size: 1.8rem;
 }
 
+.header > a:hover {
+    color: rgba(255, 255, 255, 0.534);
+}
+
 .menu {
     display: flex;
     color: white;
@@ -44,6 +48,10 @@ img {
 .menu  a {
     text-decoration: none;
     color: white;
+}
+
+.menu  a:hover {
+    color: rgba(255, 255, 255, 0.534);
 }
 
 .menu li {
