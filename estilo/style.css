@@ -20,6 +20,7 @@ img {
 }
 
 .header {
+    font-family: var(--font02);
     color: white;
     background: #1d1e20;
     display: flex;
