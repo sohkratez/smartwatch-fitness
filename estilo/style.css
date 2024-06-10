@@ -148,6 +148,7 @@ section.produtos .flex {
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    overflow: hidden;
 }
 
 .img-port:hover {
@@ -163,29 +164,36 @@ section.produtos .flex {
     background-color: #000000b8;
     border-radius: 40px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 2.2rem;
     font-weight: 600;
     color: #fff;
     opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-.overlay:hover {
+.img-port:hover .overlay {
     opacity: 1;
+}
+
+.overlay .overlay-text {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .overlay .overlay-button {
     font-weight: 600;
     text-transform: uppercase;
     font-family: var(--font);
-    position: absolute;
     background-color: #00ff84;
-    width: 8rem;
+    width: 10rem;
     height: 4rem;
     border-radius: 20px;
 }
 
-.overlay:hover .overlay-button {
+.img-port:hover .overlay .overlay-button {
     display: inline-block;
 }
