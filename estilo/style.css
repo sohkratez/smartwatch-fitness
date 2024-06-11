@@ -65,7 +65,6 @@ span {
     padding: 8rem 4%;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 0px 8px #00ff84;
 }
 
 .smartwatch-foto {
@@ -316,7 +315,7 @@ section.blog {
     padding-bottom: 3rem;
 }
 
-.sobre-nos .flex .sobre-texto button {
+.social-button {
     background-color: #00ff84;
     width: 4rem;
     height: 4rem;
@@ -324,7 +323,47 @@ section.blog {
     margin-right:0.5rem;
 }
 
-.sobre-nos .flex .sobre-texto i {
+.social-button i {
     font-size: 1.5rem;
     color: #000;
+}
+
+/* FOOTER */
+footer {
+    box-shadow: 0px 0px 15px #00ff84;
+    background-color: #000;
+    padding: 8rem 4%;
+    font-family: var(--font);
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-up img {
+    width: 10rem;
+}
+
+footer .line {
+    border-bottom: 2px solid #00ff84;
+}
+        
+.footer-up, .footer-down p, a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+footer .footer-down {
+    margin-top: 0.5rem;
+}
+
+.footer-down .mailto {
+    cursor: pointer;
+}
+
+.footer-down .mailto:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
