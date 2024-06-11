@@ -202,17 +202,16 @@ section.produtos .flex {
 section.blog {
     background-color: #000;
     padding: 8rem 4%;
+    font-family: var(--font);
 }
 
 .blog h2 {
-    font-family: var(--font);
     padding-bottom: 0.5rem;
     font-family: var(--font);
     font-size:2.8rem;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 5rem;
 }
 
 .blog h2 span {
@@ -221,34 +220,54 @@ section.blog {
 
 .articles {
     display: flex;
-    width: 50rem;
+    max-width: 50rem;
     height: 40rem;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .articles h3 {
     text-transform: capitalize;
-    color: #fff;
+    color: #000;
 }
 
 .articles p {
-    color: #fff;
+    color: #000;
 }
 
-.articles .main-article {
-    padding-right: 3rem;
+.article {
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 0 1rem;
+    background-color: #00ff84;
+    cursor: pointer;
 }
 
-.articles .main-article img {
-    width: 50rem;
-    height: 35rem;
+.article:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
 }
 
-.articles .other-articles {
-    flex-direction: column;
+.article img {
+    border-radius: 30px;
+    max-width: 33rem;
+    height: 23rem;
 }
 
-.articles .other-articles img {
-    width: 22rem;
-    height: 15rem;
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao button {
+    font-family: var(--font);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #00ff84;
+    height: 5rem;
+    width: 13rem;
+    border-radius: 30px;
 }
