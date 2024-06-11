@@ -351,19 +351,10 @@ footer .line {
         
 .footer-up, .footer-down p, a {
     text-decoration: none;
-    color: #fff;
+    color: #00ff84;
     padding: 0.5rem;
 }
 
 footer .footer-down {
     margin-top: 0.5rem;
-}
-
-.footer-down .mailto {
-    cursor: pointer;
-}
-
-.footer-down .mailto:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
 }
