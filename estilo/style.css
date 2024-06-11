@@ -16,7 +16,7 @@
     background-color: #000;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .img-logo img {
