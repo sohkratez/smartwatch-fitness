@@ -65,6 +65,7 @@ span {
     padding: 8rem 4%;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 0px 8px #00ff84;
 }
 
 .smartwatch-foto {
