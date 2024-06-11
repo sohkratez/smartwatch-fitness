@@ -9,6 +9,11 @@
     margin: 0;
     padding: 0;
 }
+
+span {
+    color: #00ff84;
+}
+
 /* CABEÇALHO */
 .header {
     padding: 2rem 4%;
@@ -270,4 +275,55 @@ section.blog {
     height: 5rem;
     width: 13rem;
     border-radius: 30px;
+}
+
+/* SOBRE NÓS */
+.sobre-nos {
+    background-color: #000;
+    padding: 8rem 4%;
+    font-family: var(--font);
+}
+
+.sobre-nos h2 {
+    color: #fff;
+    font-size: 2.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+}
+
+.sobre-nos .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo-img img {
+    width: 35rem;
+    height: 15rem;
+    margin-right: 8rem;
+}
+
+.sobre-nos .sobre-texto h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-bottom: 0.8rem;
+}
+
+.sobre-nos .sobre-texto p{
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+.sobre-nos .flex .sobre-texto button {
+    background-color: #00ff84;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 40px;
+    margin-right:0.5rem;
+}
+
+.sobre-nos .flex .sobre-texto i {
+    font-size: 1.5rem;
+    color: #000;
 }
