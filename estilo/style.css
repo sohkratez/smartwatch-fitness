@@ -358,3 +358,50 @@ footer .line {
 footer .footer-down {
     margin-top: 0.5rem;
 }
+
+@media screen and (max-width: 430px){
+    /* MOBILE - CONFIGURAÇÕES GERAIS */
+    * {
+        margin: 0;
+        padding: 0;
+        max-width: 430px;
+    }
+
+    /* MOBILE - HEADER */
+    header {
+        padding: 2rem 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* MOBILE - SMARTWATCH FITNESS */
+    section.smartwatch-fitness {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 2%;
+    }
+
+    .smartwatch-foto img {
+        width: 20rem;
+    }
+
+    .about-n-buy {
+        padding: 0 1rem;
+    }
+
+    .about-n-buy h1 {
+        font-size: 3rem;
+    }
+
+    .info p {
+        max-width: 20rem;
+        font-size: 1rem;
+    }
+
+    .compre {
+       padding: 2rem 1rem;
+    }
+
+    /* MOBILE - PRODUTOS */
+    
+}
