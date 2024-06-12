@@ -57,6 +57,10 @@ span {
     padding: 0 1rem;
 }
 
+.sidebar-menu {
+    display: none;
+}
+
 /* SMARTWATCH FITNESS */
 .smartwatch-fitness {
     font-family: var(--font);
@@ -368,15 +372,20 @@ footer .footer-down {
     }
 
     /* MOBILE - HEADER */
-    header {
+    .header {
         padding: 2rem 2%;
         display: flex;
-        flex-direction: column;
+    }
+
+    .sidebar-menu {
+        display: block;
+        color: #00ff84;
+        font-size: 2rem;
+        padding: 0 1rem;
     }
 
     .menu ul {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
     
     /* MOBILE - SMARTWATCH FITNESS */
@@ -392,6 +401,7 @@ footer .footer-down {
 
     .about-n-buy {
         padding: 0 1rem;
+        text-align: center;
     }
 
     .about-n-buy h1 {
@@ -399,7 +409,6 @@ footer .footer-down {
     }
 
     .info p {
-        max-width: 20rem;
         font-size: 1rem;
     }
 
@@ -408,7 +417,7 @@ footer .footer-down {
     }
 
     /* MOBILE - PRODUTOS */
-    .produtos {
+    section.produtos {
         padding: 4rem 2%;
         display: flex;
         flex-direction: column;
@@ -426,7 +435,7 @@ footer .footer-down {
     }
 
     /* MOBILE - BLOG */
-    .blog {
+    section.blog {
         margin: 0 auto;
         padding: 4rem 2%;
     }
