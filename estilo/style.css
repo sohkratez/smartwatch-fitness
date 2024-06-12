@@ -365,12 +365,7 @@ footer .footer-down {
 
 @media screen and (max-width: 430px){
     /* MOBILE - CONFIGURAÇÕES GERAIS */
-    * {
-        margin: 0;
-        padding: 0;
-        max-width: 43rem;
-    }
-
+    
     /* MOBILE - HEADER */
     .header {
         padding: 2rem 2%;
@@ -485,4 +480,8 @@ footer .footer-down {
     .buttons-footer {
         display: none;
     }
+}
+
+@media screen (max-width: 1232px;) {
+    /* CONFIGURAÇÕES GERAIS */
 }
