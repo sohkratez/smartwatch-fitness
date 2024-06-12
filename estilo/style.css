@@ -364,7 +364,7 @@ footer .footer-down {
     * {
         margin: 0;
         padding: 0;
-        max-width: 430px;
+        max-width: 43rem;
     }
 
     /* MOBILE - HEADER */
@@ -373,9 +373,14 @@ footer .footer-down {
         display: flex;
         flex-direction: column;
     }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
     
     /* MOBILE - SMARTWATCH FITNESS */
-    section.smartwatch-fitness {
+    .smartwatch-fitness {
         display: flex;
         flex-direction: column;
         padding: 4rem 2%;
@@ -403,5 +408,42 @@ footer .footer-down {
     }
 
     /* MOBILE - PRODUTOS */
-    
+    .produtos {
+        padding: 4rem 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .flex .img-port {
+        margin-bottom: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    /* MOBILE - BLOG */
+    .blog {
+        padding: 4rem 2%;
+    }
+
+    .articles {
+        margin: 35rem 0;
+        flex-direction: column;
+        width: 25rem;
+    }
+
+    .article {
+        margin: 2rem;
+    }
+
+    .article img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    /* MOBILE - SOBRE NOS */
 }
