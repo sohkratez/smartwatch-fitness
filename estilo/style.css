@@ -229,11 +229,11 @@ section.blog {
 
 .articles {
     display: flex;
-    max-width: 50rem;
-    height: 40rem;
+    max-width: 10rem;
+    height: 10rem;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 15rem auto;
 }
 
 .articles h3 {
@@ -480,8 +480,4 @@ footer .footer-down {
     .buttons-footer {
         display: none;
     }
-}
-
-@media screen (max-width: 1232px;) {
-    /* CONFIGURAÇÕES GERAIS */
 }
