@@ -367,12 +367,83 @@ footer .footer-down {
     margin-top: 0.5rem;
 }
 
-/* MEDIA QUERY - MAX WIDTH: 1640PX */
+/* MEDIA QUERY - MAX WIDTH: 1280PX */
+@media screen and (max-width: 1280px) {
+    /* HEADER */
+
+    /* SMARTWATCH-FITNESS */
+    .smartwatch-fitness {
+        padding: 4rem 4%;
+    }
+
+    .smartwatch-foto img {
+        width: 22rem;
+    }
+
+    .about-n-buy h1 {
+        font-size: 2.5rem;
+    }
+
+    .info p{
+        font-size: 0.8rem;
+    }
+
+    .compre button {
+        padding: 1.5rem 1rem;
+    }
+
+    /* PRODUTOS */
+    section.produtos {
+        padding: 6rem 4%;
+    }
+
+    section.produtos h2 {
+        font-size: 2.2rem;
+    }
+
+    .img-port {
+        width: 18rem;
+        height: 22rem;
+    }
+
+    /* BLOG */
+    .blog h2 {
+        font-size: 2.2rem;
+    }
+
+    .article {
+        width: 30rem;
+    }
 
 
+    .article img {
+        max-width: 26rem;
+        height: 20rem;
+    }
+
+    /* SOBRE-NÓS */
+    .sobre-nos h2 {
+        font-size: 2.2rem;
+    }
+
+    .logo-img img {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .sobre-texto {
+        width: 40rem;
+    }
+
+    .social-button {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    /* FOOTER */
 
 
-
+    /* MEDIA-QUERY - MAX-WIDTH: 1040PX */
 
 /* MOBILE */
 @media screen and (max-width: 430px){
