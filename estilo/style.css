@@ -442,8 +442,35 @@ footer .footer-down {
 
     /* FOOTER */
 
+}
+/* MEDIA-QUERY - MAX-WIDTH: 1040PX */
+@media screen and (max-width: 1040px) {
+    /* HEADER */
 
-    /* MEDIA-QUERY - MAX-WIDTH: 1040PX */
+    /* SMARTWATCH-FITNESS */
+
+    /* PRODUTOS */
+    section.produtos {
+        padding: 4rem 4%;
+    }
+
+    section.produtos .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-port {
+        width: 33rem;
+        height: 35rem;
+        margin-bottom: 2.5rem;
+    }
+
+    /* BLOG */
+    .articles {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /* MOBILE */
 @media screen and (max-width: 430px){
