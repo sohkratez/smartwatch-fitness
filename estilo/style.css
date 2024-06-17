@@ -526,12 +526,8 @@ footer .footer-down {
     }
 }
 
-/* MEDIA-QUERY - MAX-WIDTH: 660PX */
-
-
-
 /* MOBILE */
-@media screen and (max-width: 430px){
+@media screen and (max-width: 660px){
     /* MOBILE - CONFIGURAÇÕES GERAIS */
     
     /* MOBILE - HEADER */
@@ -600,22 +596,21 @@ footer .footer-down {
     /* MOBILE - BLOG */
     section.blog {
         margin: 0 auto;
-        padding: 4rem 2%;
+        padding: 2rem 2%;
     }
 
     .articles {
-        margin: 35rem 0;
         flex-direction: column;
-        width: 25rem;
+        width: 0 auto;
     }
 
     .article {
-        margin: 2rem;
+      width: 28rem;
     }
 
     .article img {
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        margin: 0 auto;
     }
 
     /* MOBILE - SOBRE NOS */
@@ -635,6 +630,10 @@ footer .footer-down {
 
     .sobre-texto {
         text-align: center;
+    }
+
+    .sobre-texto p {
+        padding: 3rem;
     }
 
     /* FOOTER */
