@@ -577,7 +577,7 @@ footer .footer-down {
 
     /* MOBILE - PRODUTOS */
     section.produtos {
-        padding: 4rem 2%;
+        padding: 2rem 2%;
         display: flex;
         flex-direction: column;
     }
@@ -589,13 +589,13 @@ footer .footer-down {
 
     .flex .img-port {
         margin-bottom: 3rem;
-        width: 20rem;
-        height: 20rem;
+        width: 15rem;
+        height: 15rem;
     }
 
     /* MOBILE - BLOG */
     section.blog {
-        margin: 0 auto;
+        align-items: center;
         padding: 2rem 2%;
     }
 
@@ -605,17 +605,16 @@ footer .footer-down {
     }
 
     .article {
-      width: 28rem;
+      width: 15rem;
     }
 
     .article img {
-        width: 25rem;
-        margin: 0 auto;
+        display: none;
     }
 
     /* MOBILE - SOBRE NOS */
     .sobre-nos {
-        padding: 4rem 2%;
+        padding: 2rem 2%;
         flex-direction: column;
     }
 
@@ -630,10 +629,11 @@ footer .footer-down {
 
     .sobre-texto {
         text-align: center;
+        font-size: 0.8rem;
     }
 
     .sobre-texto p {
-        padding: 3rem;
+        padding: 0.5rem 5rem;
     }
 
     /* FOOTER */
