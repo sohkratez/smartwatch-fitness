@@ -427,10 +427,6 @@ footer .footer-down {
         height: 10rem;
     }
 
-    .sobre-texto {
-        width: 40rem;
-    }
-
     .social-button {
         width: 3rem;
         height: 3rem;
@@ -529,7 +525,8 @@ footer .footer-down {
 /* MOBILE */
 @media screen and (max-width: 660px){
     /* MOBILE - CONFIGURAÇÕES GERAIS */
-    
+
+
     /* MOBILE - HEADER */
     .header {
         padding: 2rem 2%;
@@ -618,11 +615,8 @@ footer .footer-down {
         flex-direction: column;
     }
 
-    .flex, .logo-img img {
-        margin: 0 2rem;
-    }
-
     .logo-img img {
+        margin: 0 auto;
         width: 20rem;
         height: 15rem;
     }
@@ -630,10 +624,13 @@ footer .footer-down {
     .sobre-texto {
         text-align: center;
         font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .sobre-texto p {
-        padding: 0.5rem 5rem;
+        width: 20rem;
     }
 
     /* FOOTER */
