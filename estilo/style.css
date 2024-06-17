@@ -551,7 +551,7 @@ footer .footer-down {
     .smartwatch-fitness {
         display: flex;
         flex-direction: column;
-        padding: 4rem 2%;
+        padding: 2rem 2%;
     }
 
     .smartwatch-foto img {
